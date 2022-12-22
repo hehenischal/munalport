@@ -111,5 +111,17 @@ iframe
     width: 100%;
     height:15em;
 }
+@media (max-width:500px) 
+{
+    .box
+    {
+        flex-direction: column;
+    }
+    .a-col,.b-col
+    {
+        width: 100%;
+    }
+    
+}
 
 
