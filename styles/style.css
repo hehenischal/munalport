@@ -119,7 +119,7 @@ iframe
     color:white;
 }
 .creds > a {
-    color: greenyellow;
+    color: #606060;
     text-decoration: dotted;
 }
 @media (max-width:500px) 
