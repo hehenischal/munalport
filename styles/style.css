@@ -46,6 +46,10 @@ html
     margin-bottom: 0;
     line-height: .75;
 }
+.navbar-brand a
+{
+    text-decoration: dotted;
+}
 
 .navbar-brand a:hover , .navbar-brand a:focus
 {
@@ -64,7 +68,10 @@ html
 {
     vertical-align: middle;
 }
-
+.navbar-icons
+{
+    height: 100%;
+}
 .icons
 {
     box-sizing: border-box;
@@ -74,7 +81,7 @@ html
     background: transparent;
     gap: 10px;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 12%;
 }
 
@@ -114,12 +121,14 @@ iframe
 }
 
 .creds {
+    position: absolute;
     font-size: small;
-    margin: 6px;
-    color:white;
+    bottom: 0px;
+    color:black;
+    bottom:0%;
 }
 .creds > a {
-    color: #606060;
+    color: green;
     text-decoration: dotted;
 }
 @media (max-width:500px) 
